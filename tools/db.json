@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Securing React Apps with Auth0",
       "slug": "react-auth0-authentication-security",
-      "authorId": 2,
+      "authorId": 1,
       "category": "JavaScript"
     },
     {
@@ -69,11 +69,28 @@
       "slug": "web-components-shadow-dom",
       "authorId": 1,
       "category": "HTML5"
+    },
+    {
+      "id": 11,
+      "title": "Test Course Olivier",
+      "authorId": 3,
+      "category": "My Own",
+      "createdAt": 1554921822705,
+      "slug": "test-course-olivier"
     }
   ],
   "authors": [
-    { "id": 1, "name": "Cory House" },
-    { "id": 2, "name": "Scott Allen" },
-    { "id": 3, "name": "Dan Wahlin" }
+    {
+      "id": 1,
+      "name": "Cory House"
+    },
+    {
+      "id": 2,
+      "name": "Scott Allen"
+    },
+    {
+      "id": 3,
+      "name": "Dan Wahlin"
+    }
   ]
 }
