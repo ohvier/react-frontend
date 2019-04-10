@@ -7,6 +7,7 @@ import AboutPage from "./components/about/AboutPage";
 import Header from "./components/common/Header";
 import PageNotFound from "./components/PageNotFound";
 import coursesPage from "./components/courses/coursesPage";
+import ManageCoursePage from "./components/courses/ManageCoursePage";
 
 class App extends Component {
   render() {
@@ -18,6 +19,8 @@ class App extends Component {
           <Route exact path="/" component={HomePage} />
           <Route path="/about" component={AboutPage} />
           <Route path="/courses" component={coursesPage} />
+          <Route path="/course/:slug" component={ManageCoursePage} />
+          <Route path="/course" component={ManageCoursePage} />
           <Route component={PageNotFound} />
         </Switch>
       </div>
