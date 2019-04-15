@@ -77,6 +77,30 @@
       "category": "My Own",
       "createdAt": 1554921822705,
       "slug": "test-course-olivier"
+    },
+    {
+      "id": 12,
+      "title": " Test Edit",
+      "authorId": 2,
+      "category": "Edit test",
+      "createdAt": 1555320219124,
+      "slug": "another-test"
+    },
+    {
+      "id": 13,
+      "title": "another Test",
+      "authorId": 2,
+      "category": "second test",
+      "createdAt": 1555320220506,
+      "slug": "another-test"
+    },
+    {
+      "id": 14,
+      "title": "Test Redirect",
+      "authorId": 3,
+      "category": "Test Redirect",
+      "createdAt": 1555321554831,
+      "slug": "test-redirect"
     }
   ],
   "authors": [
